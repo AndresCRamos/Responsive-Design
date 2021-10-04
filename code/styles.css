@@ -313,7 +313,7 @@ main {
     width: 90%;
     min-width: 288px;
     max-width: 400px;
-    height: 150px;
+    min-height: 150px;
     margin: 15px auto;
     padding: 15px;
     background-color: var(--black);
@@ -333,6 +333,18 @@ main {
 
 .product-detail--card .clock {
     background-image: url('../assets/icons/clock.svg');
+}
+
+.product-detail--card .eye {
+    background-image: url('../assets/icons/eye.svg');
+}
+
+.product-detail--card .money {
+    background-image: url('../assets/icons/dollar-sign.svg');
+}
+
+.product-detail--card .checked {
+    background-image: url('../assets/icons/check-circle.svg');
 }
 
 .product-detail--card .product--card-title {
